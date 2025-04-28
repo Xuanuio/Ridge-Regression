@@ -51,6 +51,7 @@ pip install -r requirements.txt
 
 - Số đặc trưng sau mã hóa one-hot: 173
 <br>
+
 - **Tối ưu tham số alpha**:
 
 alpha=0.1: R² trên validation = 0.9111
