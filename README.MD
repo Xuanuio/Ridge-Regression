@@ -66,27 +66,27 @@ alpha=10.0: R² trên validation = 0.9367
 - **Hiệu suất mô hình**:
 <br>
 
-**Trên tập train**:
+- **Trên tập train**:
 
 R² Score: 0.9788
 <br>
 
-**Trên tập test** (dữ liệu đã log-transform):
+- **Trên tập test** (dữ liệu đã log-transform):
 
 Mean Absolute Error (MAE): 0.0250
 
 Root Mean Squared Error (RMSE): 0.1426
 
-R² Score: 0.9385 .
+R² Score: 0.9385
 <br>
 
-**Trên dữ liệu gốc** (không log-transform):
+- **Trên dữ liệu gốc** (không log-transform):
 
 Mean Absolute Error (MAE): 121,003,655 VND
 
 Root Mean Squared Error (RMSE): 622,265,996 VND
 
-R² Score: 0.9438 .
+R² Score: 0.9438
 <br>
 
 - **Đồ thị biểu diễn**:
