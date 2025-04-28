@@ -50,8 +50,7 @@ pip install -r requirements.txt
 - Số mẫu sau khi xử lý ngoại lai và giới hạn: 10948
 
 - Số đặc trưng sau mã hóa one-hot: 173
-
-
+\n
 - **Tối ưu tham số alpha**:
 
 alpha=0.1: R² trên validation = 0.9111
