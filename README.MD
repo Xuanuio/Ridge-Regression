@@ -44,6 +44,7 @@ pip install -r requirements.txt
 ---
 
 ## Kết quả cuối cùng (tối ưu nhất)
+
 - **Data sử dụng**: `df1.csv`
 
 - Số mẫu sau khi xử lý ngoại lai và giới hạn: 10948
@@ -51,6 +52,7 @@ pip install -r requirements.txt
 - Số đặc trưng sau mã hóa one-hot: 173
 
 - **Tối ưu tham số alpha**:
+
 alpha=0.1: R² trên validation = 0.9111
 
 alpha=1.0: R² trên validation = 0.9317
@@ -60,6 +62,7 @@ alpha=10.0: R² trên validation = 0.9367
 - **Giá trị alpha tối ưu**: 10.0
 
 - **Hiệu suất mô hình**:
+
 **Trên tập train**:
 
 R² Score: 0.9788 
@@ -81,6 +84,7 @@ Root Mean Squared Error (RMSE): 622,265,996 VND
 R² Score: 0.9438
 
 - **Đồ thị biểu diễn**:
+
 Giá thực tế vs Giá dự đoán: `prediction_scatter.png`
 
 Phân phối của Price (sau log-transform): `price_distribution.png`
