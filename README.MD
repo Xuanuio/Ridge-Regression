@@ -43,47 +43,48 @@ pip install -r requirements.txt
 
 ---
 
-Kết quả cuối cùng (tối ưu nhất)
-Data sử dụng: df1.csv
+## Kết quả cuối cùng (tối ưu nhất)
+- **Data sử dụng**: `df1.csv`
 
-Số mẫu sau khi xử lý: 10,237
+- Số mẫu sau khi xử lý ngoại lai và giới hạn: 10948
 
-Số đặc trưng sau one-hot encoding: 160
+- Số đặc trưng sau mã hóa one-hot: 173
 
-Tối ưu tham số alpha:
-alpha=0.1: R² trên validation = 0.9327
+- **Tối ưu tham số alpha**:
+alpha=0.1: R² trên validation = 0.9111
 
-alpha=1.0: R² trên validation = 0.9332
+alpha=1.0: R² trên validation = 0.9317
 
-alpha=10.0: R² trên validation = 0.9371
+alpha=10.0: R² trên validation = 0.9367
 
-Giá trị alpha tối ưu: 10.0
+- **Giá trị alpha tối ưu**: 10.0
 
-Hiệu suất mô hình:
-Trên tập train:
+- **Hiệu suất mô hình**:
+**Trên tập train**:
 
-R² Score: 0.9769
+R² Score: 0.9788 
 
 Trên tập test (dữ liệu đã log-transform):
 
-Mean Absolute Error (MAE): 0.0270
+Mean Absolute Error (MAE): 0.0250
 
-Root Mean Squared Error (RMSE): 0.1502
+Root Mean Squared Error (RMSE): 0.1426
 
-R² Score: 0.9265
+R² Score: 0.9385
 
-Trên dữ liệu gốc (không log-transform):
+**Trên dữ liệu gốc** (không log-transform):
 
-Mean Absolute Error (MAE): 126,696,258 VND
+Mean Absolute Error (MAE): 121,003,655 VND
 
-Root Mean Squared Error (RMSE): 619,338,436 VND
+Root Mean Squared Error (RMSE): 622,265,996 VND
 
-R² Score: 0.9350
+R² Score: 0.9438
 
-Đồ thị biểu diễn:
-Giá thực tế vs Giá dự đoán: prediction_scatter.png
+- **Đồ thị biểu diễn**:
+Giá thực tế vs Giá dự đoán: `prediction_scatter.png`
 
-Phân phối của Price (sau log-transform): price_distribution.png
+Phân phối của Price (sau log-transform): `price_distribution.png`
+
 ---
 
 ## Ghi chú
