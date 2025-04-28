@@ -51,6 +51,7 @@ pip install -r requirements.txt
 
 - Số đặc trưng sau mã hóa one-hot: 173
 
+
 - **Tối ưu tham số alpha**:
 
 alpha=0.1: R² trên validation = 0.9111
@@ -61,19 +62,23 @@ alpha=10.0: R² trên validation = 0.9367
 
 - **Giá trị alpha tối ưu**: 10.0
 
+
 - **Hiệu suất mô hình**:
+
 
 **Trên tập train**:
 
 R² Score: 0.9788 
 
-Trên tập test (dữ liệu đã log-transform):
+
+**Trên tập test** (dữ liệu đã log-transform):
 
 Mean Absolute Error (MAE): 0.0250
 
 Root Mean Squared Error (RMSE): 0.1426
 
 R² Score: 0.9385
+
 
 **Trên dữ liệu gốc** (không log-transform):
 
@@ -82,6 +87,7 @@ Mean Absolute Error (MAE): 121,003,655 VND
 Root Mean Squared Error (RMSE): 622,265,996 VND
 
 R² Score: 0.9438
+
 
 - **Đồ thị biểu diễn**:
 
